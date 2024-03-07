@@ -10,7 +10,7 @@ describe('login spec', () => {
     cy.url().should('eq', 'https://www.saucedemo.com/inventory.html')
   })
 
-it('login failed', () => {
+it('Should login failed', () => {
 
   cy.get('[data-test="username"]').type('serror_user')
   cy.get('[data-test="password"]').type('secret_sauce')
