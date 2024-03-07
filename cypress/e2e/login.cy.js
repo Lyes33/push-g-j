@@ -2,7 +2,7 @@ describe('login spec', () => {
   beforeEach(()=>{
       cy.visit('https://www.saucedemo.com/')
   })
-  it('login successfuly', () => {
+  it('Should login successfuly', () => {
     
     cy.get('[data-test="username"]').type('standard_user')
     cy.get('[data-test="password"]').type('secret_sauce')
