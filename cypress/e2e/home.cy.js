@@ -1,5 +1,5 @@
 describe('Home Page Spec', () => {
-    it('home page', () => {
+    it('should chech home page', () => {
       cy.visit('https://www.saucedemo.com/')
       cy.get('[data-test="username"]').should('be.visible')
       cy.get('[data-test="login-button"]').should('be.visible').and('be.enabled')
