@@ -1,4 +1,4 @@
-describe('Home spec', () => {
+describe('Home Page Spec', () => {
     it('home page', () => {
       cy.visit('https://www.saucedemo.com/')
       cy.get('[data-test="username"]').should('be.visible')
